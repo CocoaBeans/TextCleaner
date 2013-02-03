@@ -11,5 +11,11 @@
 @interface TCAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSTextField *textField;
+@property (assign) IBOutlet NSButton *pasteboardCheckbox;
+
+
+- (IBAction)cleanText:(id)sender;
+- (IBAction)clearText:(id)sender;
 
 @end
