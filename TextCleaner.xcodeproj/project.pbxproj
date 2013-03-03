@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A03B0BF16E319B1005FB80B /* TCCleaner.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A03B0BE16E319B1005FB80B /* TCCleaner.m */; };
 		0A2AA6D816BDD1F700AE95EA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2AA6D716BDD1F700AE95EA /* Cocoa.framework */; };
 		0A2AA6E216BDD1F700AE95EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A2AA6E016BDD1F700AE95EA /* InfoPlist.strings */; };
 		0A2AA6E416BDD1F700AE95EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2AA6E316BDD1F700AE95EA /* main.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A03B0BD16E319B1005FB80B /* TCCleaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCCleaner.h; sourceTree = "<group>"; };
+		0A03B0BE16E319B1005FB80B /* TCCleaner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCCleaner.m; sourceTree = "<group>"; };
 		0A2AA6D416BDD1F700AE95EA /* TextCleaner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextCleaner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A2AA6D716BDD1F700AE95EA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0A2AA6DA16BDD1F700AE95EA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -87,6 +90,8 @@
 				0A2AA6E916BDD1F700AE95EA /* TCAppDelegate.h */,
 				0A2AA6EA16BDD1F700AE95EA /* TCAppDelegate.m */,
 				0A2AA6EC16BDD1F800AE95EA /* MainMenu.xib */,
+				0A03B0BD16E319B1005FB80B /* TCCleaner.h */,
+				0A03B0BE16E319B1005FB80B /* TCCleaner.m */,
 				0A2AA6DE16BDD1F700AE95EA /* Supporting Files */,
 			);
 			path = TextCleaner;
@@ -173,6 +178,7 @@
 			files = (
 				0A2AA6E416BDD1F700AE95EA /* main.m in Sources */,
 				0A2AA6EB16BDD1F700AE95EA /* TCAppDelegate.m in Sources */,
+				0A03B0BF16E319B1005FB80B /* TCCleaner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +314,7 @@
 				0A2AA6F316BDD1F800AE95EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
